@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>ConfigurableListController</members>
+		<members>ConfigurableListControllerTest</members>
+		<members>GetRecordsController</members>
+		<members>GetRecordsControllerTest</members>
+		<name>ApexClass</name>
+	</types>
+    <types>
+		<members>Configurable_List_User</members>
+		<name>CustomPermission</name>
+	</types>
+	<types>
+		<members>configurableList</members>
+		<members>recordForm</members>
+		<members>recordLink</members>
+		<name>LightningComponentBundle</name>
+	</types>
+	<types>
+		<members>Configurable_List_User_Permission_Set</members>
+		<name>PermissionSet</name>
+	</types>
+	<version>55.0</version>
+</Package>
