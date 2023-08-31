@@ -51,7 +51,7 @@ private class ConfigurableListControllerTest {
                 ConfigurableListController.ChildObjectInfoWrapper.class
             );
 
-        System.assertEquals(3, columnLabels.columnLabels.size());
+        System.assertEquals(2, columnLabels.columnLabels.size());
         System.assertEquals('Created Date', columnLabels.columnLabels[1]);
     }
 }

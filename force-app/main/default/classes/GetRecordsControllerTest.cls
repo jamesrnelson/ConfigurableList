@@ -31,8 +31,7 @@ private class GetRecordsControllerTest {
                 TimeZoneSidKey = 'America/Los_Angeles',
                 EmailEncodingKey = 'UTF-8',
                 LanguageLocaleKey = 'en_US',
-                LocaleSidKey = 'en_US',
-                UserRoleId = [SELECT Id FROM UserRole WHERE DeveloperName = 'DOMPD_Case_Mgmt_User'].Id
+                LocaleSidKey = 'en_US'
         );
         insert u1;
         PermissionSet permSet = [SELECT Id, Name FROM PermissionSet WHERE Name='Configurable_List_User_Permission_Set' LIMIT 1];
